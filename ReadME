@@ -19,7 +19,7 @@ The R script "run_analysis.R" starts with the assumption that data directory
 Script function and results
 ========
 
-Running the run_analysis.R scrip will read and take in each of the collected UCI HAR datasets and manipulate the data to combine them into one file and add descriptive activity names to name the activities in the data set.
+Running the run_analysis.R scrip will read and take in each of the collected UCI HAR datasets and manipulate the data to combine them into one file and add descriptive activity names to name the activities in the data set.  The variables names have removed confusing punctuations such as (),- and expanded variable name components to make it more tidy and easier for new user to read.
 
 The script will also subset the dataset, extracting only the measurements for the mean and standard deviation for each measurement and ultimately generating a dataset that has been aggregated by subject and activity. 
 

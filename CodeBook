@@ -1,0 +1,109 @@
+Data Codebook
+JHU Data Science Specialization 
+Getting & Cleaning Data Course Project
+R.W C
+August 2014
+
+
+==================================================================
+Human Activity Recognition Using Smartphones Dataset
+Version 1.0
+==================================================================
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Universit‡ degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+==================================================================
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. 
+
+Running the run_analysis.R script returns the an aggregated dataset for the experiment data with means of each data field (captured linear acceleration and angular velocity) summarized by the subject(volunteer) ID and type of activity.
+
+
+Core Data Elements
+
+Subject        Subject
+Activity	Activity
+Subject	Subject
+Activity	NA
+fBodyAccJerkMeanFrequencyXaxis	Time domain signal of the body Accelerometer Mean of X axis
+fBodyAccJerkMeanFrequencyYaxis	Time domain signal of the body Accelerometer Mean of Y axis
+fBodyAccJerkMeanFrequencyZaxis	Time domain signal of the body Accelerometer Mean of Z axis
+fBodyAccJerkMeanXaxis	Time domain signal of gravity Accelerometer Mean of X axis
+fBodyAccJerkMeanYaxis	Time domain signal of gravity Accelerometer Mean of Y axis
+fBodyAccJerkMeanZaxis	Time domain signal of gravity Accelerometer Mean of Z axis
+fBodyAccJerkStandardDeviationXaxis	Time domain signal of the body Accelerometer Jerk Mean of X axis
+fBodyAccJerkStandardDeviationYaxis	Time domain signal of the body Accelerometer Jerk Mean of Y axis
+fBodyAccJerkStandardDeviationZaxis	Time domain signal of the body Accelerometer Jerk Mean of Z axis
+fBodyAccMagMean	Time domain signal of the body gyroscope Mean of X axis
+fBodyAccMagMeanFrequency	Time domain signal of the body gyroscope Mean of Y axis
+fBodyAccMagStandardDeviation	Time domain signal of the body gyroscope Mean of Z axis
+fBodyAccMeanFrequencyXaxis	Time domain signal of the body gyroscope Jerk Mean of X axis
+fBodyAccMeanFrequencyYaxis	Time domain signal of the body gyroscope Jerk Mean of Y axis
+fBodyAccMeanFrequencyZaxis	Time domain signal of the body gyroscope Jerk Mean of Z axis
+fBodyAccMeanXaxis	Time domain signal of the body Accelerometer Magnitude Mean 
+fBodyAccMeanYaxis	Time domain signal of gravity Accelerometer Magnitude Mean 
+fBodyAccMeanZaxis	Time domain signal of the body Accelerometer Jerk Magnitude Mean 
+fBodyAccStandardDeviationXaxis	Time domain signal of the body gyroscope Magnitude Mean 
+fBodyAccStandardDeviationYaxis	Time domain signal of the body gyroscope Jerk Magnitude Mean 
+fBodyAccStandardDeviationZaxis	Frequency domain signal of the body Accelerometer Mean of X axis
+fBodyBodyAccJerkMagMean	Frequency domain signal of the body Accelerometer Mean of Y axis
+fBodyBodyAccJerkMagMeanFrequency	Frequency domain signal of the body Accelerometer Mean of Z axis
+fBodyBodyAccJerkMagStandardDeviation	Frequency domain signal of the body Accelerometer Mean Frequencyof X axis
+fBodyBodyGyroJerkMagMean	Frequency domain signal of the body Accelerometer Mean Frequencyof Y axis
+fBodyBodyGyroJerkMagMeanFrequency	Frequency domain signal of the body Accelerometer Mean Frequencyof Z axis
+fBodyBodyGyroJerkMagStandardDeviation	Frequency domain signal of the body Accelerometer Jerk Mean of X axis
+fBodyBodyGyroMagMean	Frequency domain signal of the body Accelerometer Jerk Mean of Y axis
+fBodyBodyGyroMagMeanFrequency	Frequency domain signal of the body Accelerometer Jerk Mean of Z axis
+fBodyBodyGyroMagStandardDeviation	Frequency domain signal of the body Accelerometer Jerk Mean Frequencyof X axis
+fBodyGyroMeanFrequencyXaxis	Frequency domain signal of the body Accelerometer Jerk Mean Frequencyof Y axis
+fBodyGyroMeanFrequencyYaxis	Frequency domain signal of the body Accelerometer Jerk Mean Frequencyof Z axis
+fBodyGyroMeanFrequencyZaxis	Frequency domain signal of the body gyroscope Mean of X axis
+fBodyGyroMeanXaxis	Frequency domain signal of the body gyroscope Mean of Y axis
+fBodyGyroMeanYaxis	Frequency domain signal of the body gyroscope Mean of Z axis
+fBodyGyroMeanZaxis	Frequency domain signal of the body gyroscope Mean Frequencyof X axis
+fBodyGyroStandardDeviationXaxis	Frequency domain signal of the body gyroscope Mean Frequencyof Y axis
+fBodyGyroStandardDeviationYaxis	Frequency domain signal of the body gyroscope Mean Frequencyof Z axis
+fBodyGyroStandardDeviationZaxis	Frequency domain signal of the body Accelerometer Magnitude Mean 
+tBodyAccJerkMagMean	Frequency domain signal of the body Accelerometer Magnitude Mean Frequency
+tBodyAccJerkMagStandardDeviation	Frequency domain signal of the body BodyAccelerometer Jerk Magnitude Mean 
+tBodyAccJerkMeanXaxis	Frequency domain signal of the body BodyAccelerometer Jerk Magnitude Mean Frequency
+tBodyAccJerkMeanYaxis	Frequency domain signal of the body Bodygyroscope Magnitude Mean 
+tBodyAccJerkMeanZaxis	Frequency domain signal of the body Bodygyroscope Magnitude Mean Frequency
+tBodyAccJerkStandardDeviationXaxis	Frequency domain signal of the body Bodygyroscope Jerk Magnitude Mean 
+tBodyAccJerkStandardDeviationYaxis	Frequency domain signal of the body Bodygyroscope Jerk Magnitude Mean Frequency
+tBodyAccJerkStandardDeviationZaxis	Time domain signal of the body Accelerometer StandardDeviationof X axis
+tBodyAccMagMean	Time domain signal of the body Accelerometer StandardDeviationof Y axis
+tBodyAccMagStandardDeviation	Time domain signal of the body Accelerometer StandardDeviationof Z axis
+tBodyAccMeanXaxis	Time domain signal of gravity Accelerometer StandardDeviationof X axis
+tBodyAccMeanYaxis	Time domain signal of gravity Accelerometer StandardDeviationof Y axis
+tBodyAccMeanZaxis	Time domain signal of gravity Accelerometer StandardDeviationof Z axis
+tBodyAccStandardDeviationXaxis	Time domain signal of the body Accelerometer Jerk StandardDeviationof X axis
+tBodyAccStandardDeviationYaxis	Time domain signal of the body Accelerometer Jerk StandardDeviationof Y axis
+tBodyAccStandardDeviationZaxis	Time domain signal of the body Accelerometer Jerk StandardDeviationof Z axis
+tBodyGyroJerkMagMean	Time domain signal of the body gyroscope StandardDeviationof X axis
+tBodyGyroJerkMagStandardDeviation	Time domain signal of the body gyroscope StandardDeviationof Y axis
+tBodyGyroJerkMeanXaxis	Time domain signal of the body gyroscope StandardDeviationof Z axis
+tBodyGyroJerkMeanYaxis	Time domain signal of the body gyroscope Jerk StandardDeviationof X axis
+tBodyGyroJerkMeanZaxis	Time domain signal of the body gyroscope Jerk StandardDeviationof Y axis
+tBodyGyroJerkStandardDeviationXaxis	Time domain signal of the body gyroscope Jerk StandardDeviationof Z axis
+tBodyGyroJerkStandardDeviationYaxis	Time domain signal of the body Accelerometer Magnitude StandardDeviation
+tBodyGyroJerkStandardDeviationZaxis	Time domain signal of gravity Accelerometer Magnitude StandardDeviation
+tBodyGyroMagMean	Time domain signal of the body Accelerometer Jerk Magnitude StandardDeviation
+tBodyGyroMagStandardDeviation	Time domain signal of the body gyroscope Magnitude StandardDeviation
+tBodyGyroMeanXaxis	Time domain signal of the body gyroscope Jerk Magnitude StandardDeviation
+tBodyGyroMeanYaxis	Frequency domain signal of the body Accelerometer StandardDeviationof X axis
+tBodyGyroMeanZaxis	Frequency domain signal of the body Accelerometer StandardDeviationof Y axis
+tBodyGyroStandardDeviationXaxis	Frequency domain signal of the body Accelerometer StandardDeviationof Z axis
+tBodyGyroStandardDeviationYaxis	Frequency domain signal of the body Accelerometer Jerk StandardDeviationof X axis
+tBodyGyroStandardDeviationZaxis	Frequency domain signal of the body Accelerometer Jerk StandardDeviationof Y axis
+tGravityAccMagMean	Frequency domain signal of the body Accelerometer Jerk StandardDeviationof Z axis
+tGravityAccMagStandardDeviation	Frequency domain signal of the body gyroscope StandardDeviationof X axis
+tGravityAccMeanXaxis	Frequency domain signal of the body gyroscope StandardDeviationof Y axis
+tGravityAccMeanYaxis	Frequency domain signal of the body gyroscope StandardDeviationof Z axis
+tGravityAccMeanZaxis	Frequency domain signal of the body Accelerometer Magnitude StandardDeviation
+tGravityAccStandardDeviationXaxis	Frequency domain signal of the body BodyAccelerometer Jerk Magnitude StandardDeviation
+tGravityAccStandardDeviationYaxis	Frequency domain signal of the body Bodygyroscope Magnitude StandardDeviation
+tGravityAccStandardDeviationZaxis	Frequency domain signal of the body Bodygyroscope Jerk Magnitude StandardDeviation

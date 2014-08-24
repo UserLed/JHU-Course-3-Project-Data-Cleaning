@@ -1,0 +1,26 @@
+## ReadME
+## JHU Data Science Specialization 
+## Getting & Cleaning Data Course Project
+## R.W C
+## August 2014
+
+
+Background
+============
+UCI HAR dataset contains data from a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. 
+
+
+Notes before running script
+========
+The R script "run_analysis.R" starts with the assumption that data directory 
+"UCI HAR Dataset" and related files are in the current working directory
+
+
+Script function and results
+========
+
+Running the run_analysis.R scrip will read and take in each of the collected UCI HAR datasets and manipulate the data to combine them into one file and add descriptive activity names to name the activities in the data set.
+
+The script will also subset the dataset, extracting only the measurements for the mean and standard deviation for each measurement and ultimately generating a dataset that has been aggregated by subject and activity. 
+
+The obtained dataset will be output and written to file "TidyDataSetRWC.txt". 
